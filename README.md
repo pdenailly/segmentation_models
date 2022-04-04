@@ -35,6 +35,14 @@ Once the simulated count data are generated it is possible to run one of the 8 p
 | nbcores | if paral is TRUE for NegPol and sNegPol models|
 
 
+## Requirements
+Inside the project run the following command in order to retrieve all needed packages 
+
+```r
+packrat::restore()
+```
+
+Then restart R.
 
 ## Run tests
 
