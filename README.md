@@ -1,24 +1,3 @@
----
-output: github_document
----
-
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE, echo=FALSE, message=FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/",
-  out.width = "60%"
-)
-library(knitr)
-library(dplyr) 
-
-set.seed(2134)
-```
-
-
-
 
 # Segmentation models 
 
