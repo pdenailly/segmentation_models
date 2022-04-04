@@ -13,6 +13,10 @@ library(PLNmodels)
 library(ggplot2)
 
 
+result_directory = "results"
+ifelse(!dir.exists(file.path(result_directory)), dir.create(file.path(result_directory)), FALSE)  
+
+
 ##########################################################################################################
 #SCORE FUNCTION FOR COMPARING OBSERVED vs FOUND SEGMENTS
 ##########################################################################################################
