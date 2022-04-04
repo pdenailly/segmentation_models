@@ -1,0 +1,15 @@
+suite_jours=c(1,2,3)
+prop_jours=c(.1, .8, .1)
+diff_dat=c(10, 5, 2, 10, 10)
+model_sim=PoiMult
+model_train=PoiMult
+nombreJ=200
+nombreT=13
+sigma_pln=0.001 
+size_NegPol=500
+Ntries=5
+nb_S=4
+nb_try=2
+max_try=10
+paral=FALSE
+nbcores=5
